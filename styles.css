@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #ff6600;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    float: left;
+    width: 150px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    background-color: rgba(0, 150, 136, 0.8);
+    background-blend-mode: overlay;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.hero .btn {
+    background: #ffcc00;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+    background: #ff9900;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.about {
+    background-color: #e0f7fa;
+}
+
+.about h2 {
+    color: #00796b;
+}
+
+.problem {
+    background-color: #fff3e0;
+}
+
+.problem h2 {
+    color: #e64a19;
+}
+
+.solution {
+    background-color: #f1f8e9;
+}
+
+.solution h2 {
+    color: #689f38;
+}
+
+.features {
+    background-color: #e8f5e9;
+}
+
+.features h2 {
+    color: #388e3c;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.features-grid .feature {
+    width: 45%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.features-grid .feature img {
+    width: 80px;
+    height: 80px;
+}
+
+.features-grid .feature h3 {
+    color: #00796b;
+    margin-top: 10px;
+}
+
+.marketing {
+    background-color: #fff9c4;
+}
+
+.marketing h2 {
+    color: #fbc02d;
+}
+
+.ownership {
+    background-color: #ffebee;
+}
+
+.ownership h2 {
+    color: #c62828;
+}
+
+.financial {
+    background-color: #e3f2fd;
+}
+
+.financial h2 {
+    color: #1565c0;
+}
+
+.contact {
+    background-color: #e1bee7;
+}
+
+.contact h2 {
+    color: #6a1b9a;
+}
+
+.contact form {
+    margin-bottom: 20px;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6a1b9a;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background: #6a1b9a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact form button:hover {
+    background: #8e24aa;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #6a1b9a;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 24px;
+}
+
+@media (max-width: 768px) {
+    header .logo,
+    header nav {
+        float: none;
+        text-align: center;
+    }
+
+    header nav ul {
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .features-grid .feature {
+        width: 100%;
+    }
+}
